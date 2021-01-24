@@ -41,7 +41,31 @@ namespace EvotingDacLayer1
             return objuserdetails;
         }
 
+        public DataSet UpdatePin(string userid, string pin)
+        {
+            SqlParameter[] arr_sqlparam = new SqlParameter[2];
+            DataSet objupdateresponse = new DataSet();
+            try
+            {
+                arr_sqlparam[0] = new SqlParameter("@txtvoterid", SqlDbType.VarChar, 12);
+                arr_sqlparam[0].Value = userid;
+                arr_sqlparam[1] = new SqlParameter("@txtPin", SqlDbType.VarChar, 255);
+                arr_sqlparam[1].Value = pin;
+               
+                objupdateresponse = SqlHelper.ExecuteDataset(DBcon, CommandType.StoredProcedure, "SpUpdatePin", arr_sqlparam);
 
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.InnerException);
+                objupdateresponse = null;
+            }
+            finally
+            {
+                arr_sqlparam = null;
+            }
+            return objupdateresponse;
+        }
 
         public DataSet GetUserVoterInfoMP(string voterid)
         {

@@ -22,3 +22,15 @@ C:\EVotingWebAPP\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csproj.CoreCompileI
 C:\EVotingWebAPP\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csproj.CopyComplete
 C:\EVotingWebAPP\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.dll
 C:\EVotingWebAPP\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.pdb
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingBizlayer1.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingBizlayer1.pdb
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingDacLayer1.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingEntity1.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingDacLayer1.pdb
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingEntity1.pdb
+D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csprojAssemblyReference.cache
+D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csproj.CoreCompileInputs.cache
+D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csproj.CopyComplete
+D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.dll
+D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.pdb

@@ -321,6 +321,7 @@
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\UserDetMLAController.cs" />
     <Compile Include="Controllers\UserDetMPController.cs" />
+    <Compile Include="Controllers\UsPinController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

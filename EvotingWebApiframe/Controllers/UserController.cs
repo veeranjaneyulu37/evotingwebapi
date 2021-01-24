@@ -19,10 +19,10 @@ namespace EvotingWebApiframe.Controllers
 
 
 
-        
+        [System.Web.Http.AcceptVerbs("GET", "POST")]
         // users to caste their vote
         [HttpPost]
-        public String CastUserVote(string votersid, string PPersonName, string Party, string Position)
+        public string CastUserVote(string votersid, string PPersonName, string Party, string Position)
         {
             string message = "";
             try
@@ -77,6 +77,9 @@ namespace EvotingWebApiframe.Controllers
             }
             return response;
         }
+
+        
+
 
     }
 }

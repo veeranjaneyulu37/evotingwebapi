@@ -18,3 +18,13 @@ C:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csproj.CoreCompileI
 C:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csproj.CopyComplete
 C:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.dll
 C:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.pdb
+D:\evotingwebapi\EvotingDacLayer1\bin\Debug\EvotingDacLayer1.dll
+D:\evotingwebapi\EvotingDacLayer1\bin\Debug\EvotingDacLayer1.pdb
+D:\evotingwebapi\EvotingDacLayer1\bin\Debug\EvotingEntity1.dll
+D:\evotingwebapi\EvotingDacLayer1\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\evotingwebapi\EvotingDacLayer1\bin\Debug\EvotingEntity1.pdb
+D:\evotingwebapi\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csprojAssemblyReference.cache
+D:\evotingwebapi\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csproj.CoreCompileInputs.cache
+D:\evotingwebapi\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csproj.CopyComplete
+D:\evotingwebapi\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.dll
+D:\evotingwebapi\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.pdb

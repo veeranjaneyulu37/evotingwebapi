@@ -121,7 +121,34 @@ namespace EvotingBizlayer1
             return response;
 
         }
+        public string UpdatePin(string userid, string pin)
+        {
+            string response = "";
+            DataSet objds = new DataSet();
+            try
+            {
+                objds = userdac.UpdatePin(userid, pin);
+                if (objds.Tables.Count > 0)
+                {
+                    var dstable = objds.Tables[0];
+                    for (int i = 0; i < dstable.Rows.Count; i++)
+                    {
+                        response = dstable.Rows[i]["txtResponse"].ToString();
+                    }
 
+                }
+
+            }
+            catch (Exception e)
+            {
+                response = "-99";
+                throw e;
+            }
+
+
+            return response;
+
+        }
         public List<User> GetAccess(string userid)
         {
             List<User> userdata = new List<User>();
@@ -155,6 +182,7 @@ namespace EvotingBizlayer1
             return userdata;
         }
 
+        
 
         //public List<UserEntity> ViewProgressionInUserLocationMLA(string voterid)
         //{
