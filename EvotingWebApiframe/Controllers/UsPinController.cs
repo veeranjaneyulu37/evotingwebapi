@@ -11,6 +11,7 @@ namespace EvotingWebApiframe.Controllers
     public class UsPinController : ApiController
     {
         UserBiz bizlayer = new UserBiz();
+
         [System.Web.Http.AcceptVerbs("GET", "POST")]
         [HttpPost]
         public string UpdatePin(string userid, string pin)

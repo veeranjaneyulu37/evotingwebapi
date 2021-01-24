@@ -11,6 +11,7 @@ using Microsoft.ApplicationBlocks.Data;
 
 namespace EvotingDacLayer1
 {
+
     public class LoginDac
     {
        //string  DBcon = ConfigurationManager.ConnectionStrings["EvotingDbCon"].ConnectionString;

@@ -72,6 +72,7 @@ namespace EvotingDacLayer1
             //List<UserEntity> objreturn = new List<UserEntity>();
             SqlParameter[] arr_sqlparam = new SqlParameter[1];
             DataSet objuserdetails = new DataSet();
+
             try
             {
                 arr_sqlparam[0] = new SqlParameter("@txtvoterid", SqlDbType.VarChar, 12);

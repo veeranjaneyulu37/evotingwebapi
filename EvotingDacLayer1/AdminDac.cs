@@ -13,6 +13,7 @@ namespace EvotingDacLayer1
     public class AdminDac
     {
 
+
         string DBcon = ConfigurationManager.ConnectionStrings["EvotingDbCon"].ConnectionString;
         //add data for the participants in each election
         public DataSet  UploadParticipantData(string PPersonName, string Party, string locationfrom, string state, string district, string city, string country, string Role)
