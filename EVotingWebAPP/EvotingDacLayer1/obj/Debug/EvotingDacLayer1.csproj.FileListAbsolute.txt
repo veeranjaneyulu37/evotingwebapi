@@ -1,0 +1,10 @@
+D:\EVotingWebAPP\EvotingDacLayer1\bin\Debug\EvotingDacLayer1.dll
+D:\EVotingWebAPP\EvotingDacLayer1\bin\Debug\EvotingDacLayer1.pdb
+D:\EVotingWebAPP\EvotingDacLayer1\bin\Debug\EvotingEntity1.dll
+D:\EVotingWebAPP\EvotingDacLayer1\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\EVotingWebAPP\EvotingDacLayer1\bin\Debug\EvotingEntity1.pdb
+D:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csprojAssemblyReference.cache
+D:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csproj.CoreCompileInputs.cache
+D:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.csproj.CopyComplete
+D:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.dll
+D:\EVotingWebAPP\EvotingDacLayer1\obj\Debug\EvotingDacLayer1.pdb

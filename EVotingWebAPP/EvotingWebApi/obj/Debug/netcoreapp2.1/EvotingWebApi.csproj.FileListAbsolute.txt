@@ -1,0 +1,14 @@
+D:\EVotingWebAPP\EvotingWebApi\bin\Debug\netcoreapp2.1\EvotingWebApi.deps.json
+D:\EVotingWebAPP\EvotingWebApi\bin\Debug\netcoreapp2.1\EvotingWebApi.runtimeconfig.json
+D:\EVotingWebAPP\EvotingWebApi\bin\Debug\netcoreapp2.1\EvotingWebApi.runtimeconfig.dev.json
+D:\EVotingWebAPP\EvotingWebApi\bin\Debug\netcoreapp2.1\EvotingWebApi.dll
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.csprojAssemblyReference.cache
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.csproj.CoreCompileInputs.cache
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.RazorAssemblyInfo.cache
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.RazorAssemblyInfo.cs
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.AssemblyInfoInputs.cache
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.AssemblyInfo.cs
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.RazorTargetAssemblyInfo.cache
+D:\EVotingWebAPP\EvotingWebApi\bin\Debug\netcoreapp2.1\EvotingWebApi.pdb
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.dll
+D:\EVotingWebAPP\EvotingWebApi\obj\Debug\netcoreapp2.1\EvotingWebApi.pdb
