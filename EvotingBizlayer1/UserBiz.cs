@@ -202,7 +202,7 @@ namespace EvotingBizlayer1
                 var message = MessageResource.Create(
                     body: otp + "\n" +"Enter this Verification code  for logging into the VeeVote app.",
                     from: new Twilio.Types.PhoneNumber(" +16504092003"),
-                    to:new Twilio.Types.PhoneNumber("+917032730227")
+                    to:new Twilio.Types.PhoneNumber(mobileNumber)
 
                     );
                 var res = message.Sid;
