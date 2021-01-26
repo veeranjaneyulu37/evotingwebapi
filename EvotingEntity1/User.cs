@@ -16,6 +16,7 @@ namespace EvotingEntity1
         public String IsVoted_mp { get; set; }
         public String AadharNumber { get; set; }
         public String pin { get; set; }
+        public string MobileNum { get; set; }
 
     }
 }

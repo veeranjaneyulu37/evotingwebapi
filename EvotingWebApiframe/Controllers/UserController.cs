@@ -77,13 +77,13 @@ namespace EvotingWebApiframe.Controllers
             }
             return response;
         }
-
+        [HttpGet]
         public string SendOtp(string mobilenumber)
         {
             var otp = "";
             try
             {
-                otp = bizlayer.SendOtp(mobilenumber);
+                otp = bizlayer.Otp(mobilenumber);
             }
             catch (Exception e)
             {

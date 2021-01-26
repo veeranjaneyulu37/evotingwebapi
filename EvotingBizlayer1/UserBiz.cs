@@ -171,6 +171,7 @@ namespace EvotingBizlayer1
                         objuserentity.IsVoted_mla = dstable.Rows[i]["flgisvoted_MLA"].ToString();
                         objuserentity.IsVoted_mp = dstable.Rows[i]["flgisvoted_MP"].ToString();
                         objuserentity.pin = dstable.Rows[i]["txtpin"].ToString();
+                        objuserentity.MobileNum = dstable.Rows[i]["txtMblNo"].ToString();
 
                         userdata.Add(objuserentity);
 
@@ -188,34 +189,39 @@ namespace EvotingBizlayer1
 
 
 
-        public string SendOtp(string mobileNumber)
+        public void SendOtp(string mobileNumber,string otp)
+            
         {
-            string accountsid = "";
-            string accountToken = "";
-            var otp = "";
-
-
+            var accountsid = Environment.GetEnvironmentVariable("AC7b6403c9e1256c003012aee712a6c9fd");
             try
             {
-                 otp = generateOtp();
-                accountsid = Environment.GetEnvironmentVariable("AC7b6403c9e1256c003012aee712a6c9fd");
-                accountToken = Environment.GetEnvironmentVariable("7b119c320c68ddfe78c2a39ca743d6cc");
-                TwilioClient.Init(accountsid, accountToken);
+                 
+                
+                
+                TwilioClient.Init("AC7b6403c9e1256c003012aee712a6c9fd", "7b119c320c68ddfe78c2a39ca743d6cc");
                 var message = MessageResource.Create(
-                    body: otp + "Enter this Verification code  for logging into the VeeVote app.",
+                    body: otp + "\n" +"Enter this Verification code  for logging into the VeeVote app.",
                     from: new Twilio.Types.PhoneNumber(" +16504092003"),
                     to:new Twilio.Types.PhoneNumber("+917032730227")
 
                     );
+                var res = message.Sid;
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;
             }
             
 
+            
+        }
+        public  string Otp(string mblno)
+        {
+            var otp = "";
+            otp = generateOtp();
+            SendOtp(mblno, otp);
             return otp;
         }
 
