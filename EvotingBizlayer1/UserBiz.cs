@@ -198,13 +198,13 @@ namespace EvotingBizlayer1
             try
             {
                  otp = generateOtp();
-                accountsid = Environment.GetEnvironmentVariable("");
-                accountToken = Environment.GetEnvironmentVariable("");
+                accountsid = Environment.GetEnvironmentVariable("AC7b6403c9e1256c003012aee712a6c9fd");
+                accountToken = Environment.GetEnvironmentVariable("7b119c320c68ddfe78c2a39ca743d6cc");
                 TwilioClient.Init(accountsid, accountToken);
                 var message = MessageResource.Create(
                     body: otp + "Enter this Verification code  for logging into the VeeVote app.",
-                    from: new Twilio.Types.PhoneNumber(""),
-                    to:new Twilio.Types.PhoneNumber(mobileNumber)
+                    from: new Twilio.Types.PhoneNumber(" +16504092003"),
+                    to:new Twilio.Types.PhoneNumber("+917032730227")
 
                     );
 
