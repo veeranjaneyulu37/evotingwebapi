@@ -661,3 +661,11 @@ D:\evotingwebapi\EvotingWebApiframe\obj\Debug\EvotingWebApiframe.csproj.CoreComp
 D:\evotingwebapi\EvotingWebApiframe\obj\Debug\EvotingWebApiframe.csproj.CopyComplete
 D:\evotingwebapi\EvotingWebApiframe\obj\Debug\EvotingWebApiframe.dll
 D:\evotingwebapi\EvotingWebApiframe\obj\Debug\EvotingWebApiframe.pdb
+D:\evotingwebapi\EvotingWebApiframe\bin\Twilio.dll
+D:\evotingwebapi\EvotingWebApiframe\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\evotingwebapi\EvotingWebApiframe\bin\Microsoft.IdentityModel.Tokens.dll
+D:\evotingwebapi\EvotingWebApiframe\bin\Microsoft.IdentityModel.Logging.dll
+D:\evotingwebapi\EvotingWebApiframe\bin\EvotingBizlayer1.dll.config
+D:\evotingwebapi\EvotingWebApiframe\bin\Twilio.xml
+D:\evotingwebapi\EvotingWebApiframe\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\evotingwebapi\EvotingWebApiframe\bin\Microsoft.IdentityModel.Tokens.xml

@@ -232,3 +232,11 @@ D:\evotingwebapi\WebApplication1\obj\Debug\EvotingWebApplication2.csproj.CoreCom
 D:\evotingwebapi\WebApplication1\obj\Debug\EvotingWebApplication2.csproj.CopyComplete
 D:\evotingwebapi\WebApplication1\obj\Debug\WebApplication1.dll
 D:\evotingwebapi\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\evotingwebapi\WebApplication1\bin\Twilio.dll
+D:\evotingwebapi\WebApplication1\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\evotingwebapi\WebApplication1\bin\Microsoft.IdentityModel.Tokens.dll
+D:\evotingwebapi\WebApplication1\bin\Microsoft.IdentityModel.Logging.dll
+D:\evotingwebapi\WebApplication1\bin\EvotingBizlayer1.dll.config
+D:\evotingwebapi\WebApplication1\bin\Twilio.xml
+D:\evotingwebapi\WebApplication1\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\evotingwebapi\WebApplication1\bin\Microsoft.IdentityModel.Tokens.xml

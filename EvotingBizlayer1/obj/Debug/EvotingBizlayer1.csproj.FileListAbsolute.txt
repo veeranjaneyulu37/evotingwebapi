@@ -34,3 +34,13 @@ D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csproj.CoreCompileI
 D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.csproj.CopyComplete
 D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.dll
 D:\evotingwebapi\EvotingBizlayer1\obj\Debug\EvotingBizlayer1.pdb
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\EvotingBizlayer1.dll.config
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Newtonsoft.Json.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Twilio.dll
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Newtonsoft.Json.xml
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\evotingwebapi\EvotingBizlayer1\bin\Debug\Twilio.xml

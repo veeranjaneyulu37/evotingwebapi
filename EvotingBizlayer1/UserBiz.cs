@@ -6,6 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Twilio;
+using Twilio.Rest.Api.V2010.Account;
 
 namespace EvotingBizlayer1
 
@@ -168,6 +170,7 @@ namespace EvotingBizlayer1
                         objuserentity.IsEligible = dstable.Rows[i]["flgis_eligible"].ToString();
                         objuserentity.IsVoted_mla = dstable.Rows[i]["flgisvoted_MLA"].ToString();
                         objuserentity.IsVoted_mp = dstable.Rows[i]["flgisvoted_MP"].ToString();
+                        objuserentity.pin = dstable.Rows[i]["txtpin"].ToString();
 
                         userdata.Add(objuserentity);
 
@@ -183,6 +186,55 @@ namespace EvotingBizlayer1
             return userdata;
         }
 
+
+
+        public string SendOtp(string mobileNumber)
+        {
+            string accountsid = "";
+            string accountToken = "";
+            var otp = "";
+
+
+            try
+            {
+                 otp = generateOtp();
+                accountsid = Environment.GetEnvironmentVariable("");
+                accountToken = Environment.GetEnvironmentVariable("");
+                TwilioClient.Init(accountsid, accountToken);
+                var message = MessageResource.Create(
+                    body: otp + "Enter this Verification code  for logging into the VeeVote app.",
+                    from: new Twilio.Types.PhoneNumber(""),
+                    to:new Twilio.Types.PhoneNumber(mobileNumber)
+
+                    );
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
+
+            return otp;
+        }
+
+        public string generateOtp()
+        {
+            Random randomnumber = new Random();
+            var generatednum="";
+            try
+            {
+                generatednum = randomnumber.Next(0, 9999).ToString("0000");
+            }
+            catch (Exception ex)
+            {
+                generatednum = "";
+                throw ex;
+                
+            }
+            return generatednum;
+        }
         
 
         //public List<UserEntity> ViewProgressionInUserLocationMLA(string voterid)

@@ -78,7 +78,20 @@ namespace EvotingWebApiframe.Controllers
             return response;
         }
 
-        
+        public string SendOtp(string mobilenumber)
+        {
+            var otp = "";
+            try
+            {
+                otp = bizlayer.SendOtp(mobilenumber);
+            }
+            catch (Exception e)
+            {
+
+                throw e;
+            }
+            return otp;
+        }
 
 
     }
