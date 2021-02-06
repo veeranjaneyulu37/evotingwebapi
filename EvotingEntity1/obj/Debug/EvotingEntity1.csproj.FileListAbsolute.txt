@@ -15,3 +15,4 @@ D:\evotingwebapi\EvotingEntity1\bin\Debug\EvotingEntity1.pdb
 D:\evotingwebapi\EvotingEntity1\obj\Debug\EvotingEntity1.csproj.CoreCompileInputs.cache
 D:\evotingwebapi\EvotingEntity1\obj\Debug\EvotingEntity1.dll
 D:\evotingwebapi\EvotingEntity1\obj\Debug\EvotingEntity1.pdb
+D:\evotingwebapi\EvotingEntity1\obj\Debug\EvotingEntity1.csprojAssemblyReference.cache
