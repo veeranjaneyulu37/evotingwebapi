@@ -192,6 +192,7 @@ namespace EvotingBizlayer1
         public void SendOtp(string mobileNumber,string otp)
             
         {
+            mobileNumber = "+" + mobileNumber;
             var accountsid = Environment.GetEnvironmentVariable("AC7b6403c9e1256c003012aee712a6c9fd");
             try
             {
