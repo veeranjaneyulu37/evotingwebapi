@@ -107,7 +107,7 @@ namespace EvotingDacLayer1
                 arr_sqlparam[2] = new SqlParameter("@txtPPerson", SqlDbType.VarChar, 50);
                 arr_sqlparam[2].Value = PPersonName;
                 arr_sqlparam[3] = new SqlParameter("@txtPosition", SqlDbType.VarChar, 3);
-                arr_sqlparam[3].Value = PPersonName;
+                arr_sqlparam[3].Value = Position;
                 objcastvote = SqlHelper.ExecuteDataset(DBcon, CommandType.StoredProcedure, "SpInsertVotingdata", arr_sqlparam);
 
             }
